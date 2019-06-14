@@ -1,0 +1,6 @@
+G:\Work\build\Application\CRM.Common\bin\Debug\CRM.Common.dll
+G:\Work\build\Application\CRM.Common\bin\Debug\CRM.Common.pdb
+G:\Work\build\Application\CRM.Common\obj\Debug\CRM.Common.csprojResolveAssemblyReference.cache
+G:\Work\build\Application\CRM.Common\obj\Debug\CRM.Common.csproj.CoreCompileInputs.cache
+G:\Work\build\Application\CRM.Common\obj\Debug\CRM.Common.dll
+G:\Work\build\Application\CRM.Common\obj\Debug\CRM.Common.pdb

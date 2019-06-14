@@ -1,0 +1,6 @@
+G:\Work\build\Application\CRM.UserManagement\bin\Debug\CRM.UserManagement.dll
+G:\Work\build\Application\CRM.UserManagement\bin\Debug\CRM.UserManagement.pdb
+G:\Work\build\Application\CRM.UserManagement\obj\Debug\CRM.UserManagement.csprojResolveAssemblyReference.cache
+G:\Work\build\Application\CRM.UserManagement\obj\Debug\CRM.UserManagement.csproj.CoreCompileInputs.cache
+G:\Work\build\Application\CRM.UserManagement\obj\Debug\CRM.UserManagement.dll
+G:\Work\build\Application\CRM.UserManagement\obj\Debug\CRM.UserManagement.pdb
