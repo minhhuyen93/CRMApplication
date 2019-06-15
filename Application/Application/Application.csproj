@@ -183,6 +183,10 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Common\Data\ResponseData.cs" />
+    <Compile Include="Common\Data\ResponseWrapper.cs" />
+    <Compile Include="Common\Validation\ValidationError.cs" />
+    <Compile Include="Common\Validation\ValidationException.cs" />
     <Compile Include="Context\UserMangementDbContext.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
