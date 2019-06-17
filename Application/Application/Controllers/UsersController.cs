@@ -1,8 +1,9 @@
 ﻿namespace Application.Controllers
 {
     using Application.Common.Data;
+    using Application.Common.IoC;
     using Application.Entity;
-    using Application.Repository;
+    using Application.Services;
     using System.Collections.Generic;
     using System.Web.Http;
     [RoutePrefix("api/users")]
@@ -13,12 +14,8 @@
         [ResponseWrapper()]
         public IList<User> GetUsers()
         {
-            using (UnitOfWork uow = new UnitOfWork())
-            {
-                UserRepository repo = new UserRepository(uow);
-                return repo.GetUsers();
-            }
-
+            IUserService service = IoC.Resolve<IUserService>();//new UserService();
+            return service.GetUsers();
         }
     }
 }

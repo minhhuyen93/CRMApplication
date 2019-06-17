@@ -185,6 +185,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Common\Data\ResponseData.cs" />
     <Compile Include="Common\Data\ResponseWrapper.cs" />
+    <Compile Include="Common\IoC\IoC.cs" />
     <Compile Include="Common\Validation\ValidationError.cs" />
     <Compile Include="Common\Validation\ValidationException.cs" />
     <Compile Include="Context\UserMangementDbContext.cs" />
@@ -199,6 +200,8 @@
     <Compile Include="Repository\BaseRepository.cs" />
     <Compile Include="Repository\UnitOfWork.cs" />
     <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Services\IUserService.cs" />
+    <Compile Include="Services\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
