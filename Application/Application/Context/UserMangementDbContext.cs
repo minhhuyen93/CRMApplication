@@ -1,10 +1,10 @@
 ﻿using Application.Entity;
-using System;
+using Application.Repository;
 using System.Data.Entity;
 
 namespace Application.Context
 {
-    public class UserMangementDbContext : DbContext
+    public class UserMangementDbContext : DbContext, IDbContext
     {
         public UserMangementDbContext():base("UserMangementDbContext")
         {
@@ -12,7 +12,7 @@ namespace Application.Context
         }
         public IDbSet<User> Users { get; set; }
 
-        internal IDbSet<TEntity> GetContextDbSet<TEntity>() where TEntity : class
+        public IDbSet<TEntity> GetContextDbSet<TEntity>() where TEntity : class
         {
             return this.Set<TEntity>();
         }

@@ -5,6 +5,6 @@ namespace Application.Services
 {
     public interface IUserService
     {
-        IList<User> GetUsers();
+        //IList<User> GetUsers();
     }
 }

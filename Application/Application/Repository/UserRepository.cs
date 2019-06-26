@@ -5,7 +5,7 @@ namespace Application.Repository
 {
     public class UserRepository : BaseRepository<User>
     {
-        public UserRepository(UnitOfWork uow) : base(uow.GetDbSet<User>()) { }
+        public UserRepository(UnitOfWork<User> uow) : base(uow.GetDbSet<User>()) { }
 
         internal IList<User> GetUsers()
         {

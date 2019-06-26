@@ -90,7 +90,6 @@ G:\Work\build\Application\Application\bin\Microsoft.AI.DependencyCollector.xml
 G:\Work\build\Application\Application\bin\Microsoft.AI.ServerTelemetryChannel.xml
 G:\Work\build\Application\Application\bin\Microsoft.AI.WindowsServer.xml
 G:\Work\build\Application\Application\bin\Microsoft.AI.Web.xml
-G:\Work\build\Application\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
 G:\Work\build\Application\Application\obj\Debug\Application.csproj.CoreCompileInputs.cache
 G:\Work\build\Application\Application\obj\Debug\Application.csproj.CopyComplete
 G:\Work\build\Application\Application\obj\Debug\Application.dll
@@ -99,3 +98,4 @@ G:\Work\build\Application\Application\bin\EntityFramework.dll
 G:\Work\build\Application\Application\bin\EntityFramework.SqlServer.dll
 G:\Work\build\Application\Application\bin\EntityFramework.xml
 G:\Work\build\Application\Application\bin\EntityFramework.SqlServer.xml
+G:\Work\build\Application\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache

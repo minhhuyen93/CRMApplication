@@ -1,15 +1,14 @@
-﻿using Application.Context;
-using System;
-using System.Data.Entity;
-
-namespace Application.Repository
+﻿namespace Application.Repository
 {
-    public class UnitOfWork : IDisposable
+    using Application.Common.Factory;
+    using System;
+    using System.Data.Entity;
+    public class UnitOfWork<TEntity> : IDisposable where TEntity : class
     {
-        UserMangementDbContext _context;
+        IDbContext _context;
         public UnitOfWork()
         {
-            this._context = new UserMangementDbContext();
+            this._context = DataBaseFactory.Create<TEntity>();
         }
 
         public void Dispose()
